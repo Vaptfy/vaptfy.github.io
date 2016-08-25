@@ -1,0 +1,611 @@
+<!DOCTYPE html>
+<!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->
+<!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->
+<!--[if !IE]><!-->
+<html lang="en">
+<!--<![endif]-->
+
+<head>
+    <title>Vaptfy</title>
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="favicon.ico">
+    <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Covered+By+Your+Grace' rel='stylesheet' type='text/css'>
+    <!-- Global CSS -->
+    <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">
+    <!-- Plugins CSS -->
+    <link rel="stylesheet" href="assets/plugins/font-awesome/css/font-awesome.css">
+    <link rel="stylesheet" href="assets/plugins/flexslider/flexslider.css">
+    <link rel="stylesheet" href="assets/plugins/animate-css/animate.min.css">
+    <!-- Theme CSS -->
+    <link id="theme-style" rel="stylesheet" href="assets/css/styles.css">
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body data-spy="scroll">
+    <!-- ******HEADER****** -->
+    <header id="top" class="header navbar-fixed-top">
+        <div class="container">
+            <h1 class="logo pull-left">
+                <a class="scrollto" href="#promo">
+                    <img id="logo-image" class="logo-image" src="assets/images/logo/logo.png" alt="Logo">
+                    <span class="logo-title"></span>
+                </a>
+            </h1>
+            <!--//logo-->
+            <nav id="main-nav" class="main-nav navbar-right" role="navigation">
+                <div class="navbar-header">
+                    <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-collapse"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+                    <!--//nav-toggle-->
+                </div>
+                <!--//navbar-header-->
+                <div class="navbar-collapse collapse" id="navbar-collapse">
+                    <ul class="nav navbar-nav">
+                        <li class="active nav-item sr-only"><a class="scrollto" href="#promo">Home</a></li>
+                        <li class="nav-item"><a class="scrollto" href="#features">Diferenciais</a></li>
+                        <li class="nav-item"><a class="scrollto" href="#how">Como funciona</a></li>
+                        <li class="nav-item"><a class="scrollto" href="#faq">FAQ</a></li>
+                        <li class="nav-item"><a class="scrollto" href="#story">História</a></li>
+                        <li class="nav-item last"><a class="scrollto" href="#contact">Contato</a></li>
+                        <li class="nav-item">
+                            <button type="button" class="login-trigger btn btn-link" data-toggle="modal" data-target="#login-modal">Log in</button>
+                        </li>
+                    </ul>
+                    <!--//nav-->
+                </div>
+                <!--//navabr-collapse-->
+            </nav>
+            <!--//main-nav-->
+        </div>
+    </header>
+    <!--//header-->
+    <!-- ******PROMO****** -->
+    <section id="promo" class="promo section offset-header has-pattern">
+        <div class="container">
+            <div class="row">
+                <div class="overview col-md-8 col-sm-12 col-xs-12">
+                    <h2 class="title">A Vapty te proporciona um serviço eficiente a um preço justo</h2>
+                    <ul class="summary">
+                        <li>Pague tarifas baixas</li>
+                        <li>Acompanhe sua entrega em tempo real</li>
+                        <li>Oferecemos seguro por uma pequena taixa extra</li>
+                        <li>Entregadores rigorosamente selecionados e avaliados constantemente</li>
+                    </ul>
+                    <div class="download-area">
+                        <ul class="btn-group list-inline">
+                            <li class="ios-btn">
+                                <a href="#"></a>
+                            </li>
+                            <li class="android-btn">
+                                <a href="#"></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!--//overview-->
+                <!--// iPhone starts -->
+                <div class="phone iphone iphone-black col-md-4 col-sm-12 col-xs-12 ">
+                    <div class="iphone-holder phone-holder">
+                        <div class="iphone-holder-inner">
+                            <li> <img src="assets/images/iphone/iphone-slide-1.png" alt="" /> </li>
+                        </div>
+                        <!--//iphone-holder-inner-->
+                    </div>
+                    <!--//iphone-holder-->
+                </div>
+                <!--//iphone-->
+                <!--// iPhone ends -->
+            </div>
+            <!--//row-->
+        </div>
+        <!--//container-->
+    </section>
+    <!--//promo-->
+    <!-- Login Modal -->
+    <div class="modal modal-login" id="login-modal" tabindex="-1" role="dialog" aria-labelledby="loginModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 id="loginModalLabel" class="modal-title text-center">Log in to your account</h4> </div>
+                <div class="modal-body">
+                    <div class="social-login text-center">
+                        <ul class="list-unstyled social-login">
+                            <li>
+                                <button class="twitter-btn btn" type="button"><i class="fa fa-twitter"></i>Log in with Twitter</button>
+                            </li>
+                            <li>
+                                <button class="facebook-btn btn" type="button"><i class="fa fa-facebook"></i>Log in with Facebook</button>
+                            </li>
+                            <li>
+                                <button class="google-btn btn" type="button"><i class="fa fa-google-plus"></i>Log in with Google</button>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="divider"><span>Or</span></div>
+                    <div class="login-form-container">
+                        <form class="login-form">
+                            <div class="form-group email">
+                                <label class="sr-only" for="login-email">Your email</label>
+                                <input id="login-email" name="login-email" type="email" class="form-control login-email" placeholder="Your email"> </div>
+                            <!--//form-group-->
+                            <div class="form-group password">
+                                <label class="sr-only" for="login-password">Password</label>
+                                <input id="login-password" name="login-password" type="password" class="form-control login-password" placeholder="Password">
+                                <p class="forgot-password"> <a href="#" id="resetpass-link" data-toggle="modal" data-target="#resetpass-modal">Forgot password?</a> </p>
+                            </div>
+                            <!--//form-group-->
+                            <button type="submit" class="btn btn-block btn-cta-primary">Log in</button>
+                            <div class="checkbox remember">
+                                <label>
+                                    <input type="checkbox"> Remember me </label>
+                            </div>
+                            <!--//checkbox-->
+                        </form>
+                    </div>
+                    <!--//login-form-container-->
+                </div>
+                <!--//modal-body-->
+                <div class="modal-footer">
+                    <p>New to Tempo? <a class="signup-link" id="signup-link" href="#">Sign up now</a></p>
+                </div>
+                <!--//modal-footer-->
+            </div>
+            <!--//modal-content-->
+        </div>
+        <!--//modal-dialog-->
+    </div>
+    <!--//modal-->
+    <!-- Signup Modal -->
+    <div class="modal modal-signup" id="signup-modal" tabindex="-1" role="dialog" aria-labelledby="signupModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 id="signupModalLabel" class="modal-title text-center">New to Tempo? Sign up now.</h4>
+                    <p class="intro text-center">It only takes 3 minutes!</p>
+                    <p></p>
+                </div>
+                <div class="modal-body">
+                    <div class="social-login text-center">
+                        <ul class="list-unstyled social-login">
+                            <li>
+                                <button class="twitter-btn btn" type="button"><i class="fa fa-twitter"></i>Sign up with Twitter</button>
+                            </li>
+                            <li>
+                                <button class="facebook-btn btn" type="button"><i class="fa fa-facebook"></i>Sign up with Facebook</button>
+                            </li>
+                            <li>
+                                <button class="google-btn btn" type="button"><i class="fa fa-google-plus"></i>Sign up with Google</button>
+                            </li>
+                        </ul>
+                        <p class="note">Don't worry, we won't post anything without your permission.</p>
+                    </div>
+                    <div class="divider"><span>Or</span></div>
+                    <div class="login-form-container">
+                        <form class="login-form">
+                            <div class="form-group email">
+                                <label class="sr-only" for="signup-email">Your email</label>
+                                <input id="signup-email" name="signup-email" type="email" class="form-control login-email" placeholder="Your email"> </div>
+                            <!--//form-group-->
+                            <div class="form-group password">
+                                <label class="sr-only" for="signup-password">Your password</label>
+                                <input id="signup-password" name="signup-password" type="password" class="form-control login-password" placeholder="Password"> </div>
+                            <!--//form-group-->
+                            <button type="submit" class="btn btn-block btn-cta-primary">Sign up</button>
+                            <p class="note">By signing up, you agree to our terms of services and privacy policy.</p>
+                        </form>
+                    </div>
+                    <!--//login-form-container-->
+                </div>
+                <!--//modal-body-->
+                <div class="modal-footer">
+                    <p>Already have an account? <a class="login-link" id="login-link" href="#">Log in</a></p>
+                </div>
+                <!--//modal-footer-->
+            </div>
+            <!--//modal-content-->
+        </div>
+        <!--//modal-dialog-->
+    </div>
+    <!--//modal-->
+    <!-- Reset Password Modal -->
+    <div class="modal modal-resetpass" id="resetpass-modal" tabindex="-1" role="dialog" aria-labelledby="resetpassModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 id="resetpassModalLabel" class="modal-title text-center">Password Reset</h4> </div>
+                <div class="modal-body">
+                    <div class="resetpass-form-container">
+                        <p class="intro">Please enter your email address below and we'll email you a link to a page where you can easily create a new password.</p>
+                        <form class="resetpass-form">
+                            <div class="form-group email">
+                                <label class="sr-only" for="reg-email">Your email</label>
+                                <input id="reg-email" name="reg-email" type="email" class="form-control login-email" placeholder="Your email"> </div>
+                            <!--//form-group-->
+                            <button type="submit" class="btn btn-block btn-cta-primary">Reset Password</button>
+                        </form>
+                    </div>
+                    <!--//login-form-container-->
+                </div>
+                <!--//modal-body-->
+                <div class="modal-footer">
+                    <p>I want to <a class="back-to-login-link" id="back-to-login-link" href="#">return to login</a></p>
+                </div>
+                <!--//modal-footer-->
+            </div>
+            <!--//modal-content-->
+        </div>
+        <!--//modal-dialog-->
+    </div>
+    <!--//modal-->
+    <!-- ******FEATURES****** -->
+    <section id="features" class="features section">
+        <div class="container">
+            <div class="row">
+                <h2 class="title text-center sr-only">Diferenciais</h2>
+                <div class="item col-md-3 col-sm-6 col-xs-12 text-center">
+                    <div class="icon"> <i class="fa fa-calendar"></i> </div>
+                    <!--//icon-->
+                    <div class="content">
+                        <h3 class="title">Agende suas entregas</h3>
+                        <p>Seja para buscar ou levar uma entrega, é possível programar tudo e relaxar. </p>
+                        <button class="modal-trigger btn btn-link" data-toggle="modal" data-target="#feature-modal-1">Saiba mais</button>
+                    </div>
+                    <!--//content-->
+                </div>
+                <!--//item-->
+                <div class="item col-md-3 col-sm-6 col-xs-12 text-center">
+                    <div class="icon"> <i class="fa fa-rocket"></i> </div>
+                    <!--//icon-->
+                    <div class="content">
+                        <h3 class="title">Entregas rápidas</h3>
+                        <p>A Vaptfy seleciona entregadores capazes de cumprir o prazo de entrega adequado ao meio utilizado.</p>
+                        <button class="modal-trigger btn btn-link" data-toggle="modal" data-target="#feature-modal-1">Saiba mais</button>
+                    </div>
+                    <!--//content-->
+                </div>
+                <!--//item-->
+                <div class="item col-md-3 col-sm-6 col-xs-12 text-center">
+                    <div class="icon"> <i class="fa fa-lock"></i> </div>
+                    <!--//icon-->
+                    <div class="content">
+                        <h3 class="title">Segurança e integridade</h3>
+                        <p>Nós zelamos pela integridade e seguraça da sua entrega, então disponilizamos um seguro opcional. </p>
+                        <button class="modal-trigger btn btn-link" data-toggle="modal" data-target="#feature-modal-1">Saiba mais</button>
+                    </div>
+                    <!--//content-->
+                </div>
+                <!--//item-->
+                <div class="item col-md-3 col-sm-6 col-xs-12 text-center">
+                    <div class="icon"> <i class="fa fa-comments"></i> </div>
+                    <!--//icon-->
+                    <div class="content">
+                        <h3 class="title">Suporte total</h3>
+                        <p>Estamos prontos para tirar suas dúvidas 24h por dia, 7 dias por semana. </p>
+                        <button class="modal-trigger btn btn-link" data-toggle="modal" data-target="#feature-modal-1">Saiba mais</button>
+                    </div>
+                    <!--//content-->
+                </div>
+                <!--//item-->
+            </div>
+            <!--//row-->
+        </div>
+        <!--//container-->
+    </section>
+    <!--//features-->
+    <!-- ******HOW****** -->
+    <section id="how" class="how section has-pattern">
+        <div class="container">
+            <div class="row">
+                <div class="content col-md-6 col-sm-6 col-xs-12 col-md-push-6 col-sm-push-6 text-center">
+                    <h2 class="title">Como funciona</h2>
+                    <p class="intro">Assista nosso vídeo explicativo e veja como é simples e intuitivo utilizar o nosso app.</p>
+                    <div class="qr-codes hidden-sm hidden-xs">
+                        <div class="note">
+                            <p>Escaneie o QR code e baixe o app</p> <span class="left-arrow"></span> <span class="right-arrow"></span> </div>
+                        <!--//note-->
+                        <div class="row">
+                            <div class="item col-md-6 col-sm-6"> <img src="assets/images/qrcodes/qr-1.png" alt="" />
+                                <p>Download para iOS</p>
+                            </div>
+                            <!--//item-->
+                            <div class="item col-md-6 col-sm-6"> <img src="assets/images/qrcodes/qr-1.png" alt="" />
+                                <p>Download para Andriod</p>
+                            </div>
+                            <!--//item-->
+                        </div>
+                    </div>
+                    <!--//qr-codes-->
+                </div>
+                <!--//content-->
+                <div id="video-container" class="video-container col-md-6 col-sm-6 col-xs-12 col-md-pull-6 col-sm-pull-6">
+                    <iframe src="http://player.vimeo.com/video/87044590" width="570" height="320" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                </div>
+                <!--//video-->
+            </div>
+            <!--//row-->
+        </div>
+        <!--//container-->
+    </section>
+    <!--//how-->
+    <!-- ******FAQ****** -->
+    <section id="faq" class="faq section">
+        <div class="container">
+            <div class="row">
+                <h2 class="title text-center">Perguntas mais frequentes</h2>
+                <div class="faq-col col-md-6 col-sm-6 col-xs-12">
+                    <div class="item">
+                        <h3 class="question"><i class="fa fa-question-circle"></i>Como funciona o app?</h3>
+                        <p class="answer">Nós conectamos entregadores cadastrados a comerciantes que precisam de um serviço ágil e viável. Com custo benefício para ambos os lados, proporcionamos um serviço com preço justo e uma fonte de renda extra para nossos membros da comunidade Vaptfy.</p>
+                    </div>
+                    <!--//item-->
+                    <div class="item">
+                        <h3 class="question"><i class="fa fa-question-circle"></i>Baixei o App e agora?</h3>
+                        <p class="answer">Para finalizar seu cadastro confira o email que você recebeu ao baixar o app e prepare sua documentação:
+                            <br>
+                            <br> <strong>Para utilizar automóvel:</strong> Carteira de Identidade, CNH, Documento do veículo, Apólice de seguro do carro, Comprovante de residência, dados bancários e antecedentes criminais.
+                            <br> <strong>Para utilizar moto:</strong> Carteira de Identidade, CNH, documento do veículo, Comprovante de residência, dados bancários e antecedentes criminais.
+                            <br> <strong>Para utilizar bicicleta:</strong>&nbsp;Carteira de identidade, Comprovante de residência, dados bancários e antecedentes criminais.</p>
+                    </div>
+                    <!--//item-->
+                    <div class="item">
+                        <h3 class="question"><i class="fa fa-question-circle"></i>Posso tirar fotos dos meus documentos?</h3>
+                        <p class="answer">Pode sim, mas lembre-se de tirar fotos com boa qualidade. Vale escanear também.</p>
+                    </div>
+                    <!--//item-->
+                    <div class="item">
+                        <h3 class="question"><i class="fa fa-question-circle"></i>Já enviei meus documentos, qual o próximo passo?</h3>
+                        <p class="answer">Agora basta aguardar, nosso time irá conferir seus dados e em poucos dias você receberá um email com o resultado do seu cadastro.</p>
+                    </div>
+                    <!--//item-->
+                    <div class="item">
+                        <h3 class="question"><i class="fa fa-question-circle"></i>Meu carro/moto não tem seguro, como que faz gente?!</h3>
+                        <p class="answer">Relaxa! Caso seu veículo não possua seguro, basta informar no formulário de cadastro. Em seguida você receberá um email com o passo a passo de como realizar a assinatura online do termo de responsabilidade.</p>
+                    </div>
+                    <!--//item-->
+                </div>
+                <!--//faq-col-->
+                <div class="faq-col col-md-6 col-sm-6 col-xs-12">
+                    <div class="item">
+                        <h3 class="question"><i class="fa fa-question-circle"></i>Estou online no App e não recebo nenhuma tarefa. Por quê?</h3>
+                        <p class="answer">As entregas são destinadas a você de acordo com sua localização. É possível que não tenha surgido ainda nenhuma demanda na sua região ou sua cidade ainda não tem um grande número de entregas diárias.
+                            <br>
+                            <br>Não se preocupe, nosso time está trabalhando para aumentarmos nossa rede de clientes em todas as cidades.
+                            <br>
+                            <br>Confira se você está online no app e seu GPS está ligado. </p>
+                    </div>
+                    <!--//item-->
+                    <div class="item">
+                        <h3 class="question"><i class="fa fa-question-circle"></i>Quanto vou receber por minhas entregas?</h3>
+                        <p class="answer">Shippers recebem 80% do valor do frete. Os pagamentos são realizados quinzenalmente, sendo cobrados R$ 9,00 de custos bancários por transferência.</p>
+                    </div>
+                    <!--//item-->
+                    <div class="item">
+                        <h3 class="question"><i class="fa fa-question-circle"></i>Como ver o quanto eu estou ganhando?</h3>
+                        <p class="answer">Após sua primeira entrega o App cria um histórico de todas as tarefas que você já realizou. Confira seus ganhos utilizando essa funcionalidade. </p>
+                    </div>
+                    <!--//item-->
+                    <div class="item">
+                        <h3 class="question"><i class="fa fa-question-circle"></i>POSSO SER BANIDO DA ZAPTFY?</h3>
+                        <p class="answer">Nossa comunidade é baseado em proporcionar boas experiências aos nossos usuários, sendo sempre simpático, educado e paciente. Sua performance é avaliada de 0 a 5. Os entregadores com uma média abaixo de 4,0 são banidos da plataforma.</p>
+                    </div>
+                    <!--//item-->
+                    <div class="item">
+                        <h3 class="question"><i class="fa fa-question-circle"></i>Posso realizar as entregas sem veículo?</h3>
+                        <p class="answer">Claro! Pode usar skate, patinete motorizado, patins. Só não vale cair, se machucar e nem estragar a carga. </p>
+                    </div>
+                    <!--//item-->
+                </div>
+                <!--//faq-col-->
+            </div>
+            <!--//row-->
+            <div class="more text-center">
+                <h4 class="title">Mais perguntas?</h4> <a class="btn btn-lg btn-theme scrollto" href="#contact">Entre em contato<i class="fa fa-arrow-circle-o-down"></i></a> </div>
+        </div>
+        <!--//container-->
+    </section>
+    <!--//faq-->
+    <!-- ******STORY****** -->
+    <section id="story" class="story section has-pattern">
+        <div class="container">
+            <div class="row">
+                <div class="content col-md-6 col-sm-6 col-xs-12 text-center">
+                    <h2 class="title">História por trás do app</h2>
+                    <p>A Vaptfy foi criada pensando em melhorar o fluxo de entregas das grandes capitais brasileiras, que ainda é precário e ineficiente devido aos constantes engarrafamentos.Pensando nisso, o desafio da nossa empresa é aliar agilidade, segurança e sustentabilidae em um ambiente caótico. Daí, nasceu a Vaptfy, feita com carinho e responsabilidade por 4 estudantes do CEFET-MG. </p>
+                </div>
+                <!--//content-->
+                <div class="team col-md-5 col-sm-5 col-md-offset-1 col-sm-offset-1 col-xs-12">
+                    <div class="row">
+                        <div class="member col-md-6 text-center"> <img class="img-rounded" src="assets/images/team/member-1.png" alt="" />
+                            <p class="name">Cosme</p>
+                            <p class="title">Lead Developer</p>
+                        </div>
+                        <!--//member-->
+                        <div class="member col-md-6 text-center"> <img class="img-rounded" src="assets/images/team/member-2.png" alt="" />
+                            <p class="name">Victor</p>
+                            <p class="title">UI/UX Designer</p>
+                        </div>
+                        <!--//member-->
+                    </div>
+                    <div class="row">
+                        <div class="member col-md-6 text-center"> <img class="img-rounded" src="assets/images/team/member-1.png" alt="" />
+                            <p class="name">Felipe</p>
+                            <p class="title">Lead Developer</p>
+                        </div>
+                        <!--//member-->
+                        <div class="member col-md-6 text-center"> <img class="img-rounded" src="assets/images/team/member-2.png" alt="" />
+                            <p class="name">Eduardo</p>
+                            <p class="title">UI/UX Designer</p>
+                        </div>
+                        <!--//member-->
+                    </div>
+                </div>
+                <!--//team-->
+            </div>
+            <!--//row-->
+        </div>
+        <!--//container-->
+    </section>
+    <!--//story-->
+    <!-- ******TESTIMONIALS****** -->
+    <section id="testimonials" class="testimonials section">
+        <div class="container">
+            <div class="row">
+                <h2 class="title text-center">Empresas que já utilizam a Vaptfy</h2> </div>
+            <div class="press row text-center">
+                <ul class="col-md-12 list-inline">
+                    <li>
+                        <a href="#"><img class="img-responsive" src="assets/images/press/press-1.png" alt="" /></a>
+                    </li>
+                    <li>
+                        <a href="#"><img class="img-responsive" src="assets/images/press/press-2.png" alt="" /></a>
+                    </li>
+                    <li>
+                        <a href="#"><img class="img-responsive" src="assets/images/press/press-3.png" alt="" /></a>
+                    </li>
+                    <li>
+                        <a href="#"><img class="img-responsive" src="assets/images/press/press-4.png" alt="" /></a>
+                    </li>
+                    <li class="last">
+                        <a href="#"><img class="img-responsive" src="assets/images/press/press-5.png" alt="" /></a>
+                    </li>
+                </ul>
+            </div>
+            <!--//row-->
+        </div>
+        <!--//container-->
+    </section>
+    <!--//Testimonials-->
+    <!-- ******CONTACT****** -->
+    <section id="contact" class="contact section has-pattern">
+        <div class="container">
+            <div class="row text-center">
+                <h2 class="title">Fale Conosco</h2>
+                <div class="intro col-md-6 col-sm-12 col-xs-12 col-md-offset-3">
+                    <p>Adoraríamos saber o que você acha da nossa empresa.</p>
+                    <ul class="list-unstyled contact-details">
+                        <li><i class="fa fa-envelope"></i><a href="mailto:hello@website.com">suporte@vaptfy.com</a></li>
+                        <li><i class="fa fa-phone-square"></i>0800 123 456</li>
+                    </ul>
+                </div>
+            </div>
+            <!--//row-->
+            <div class="row text-center">
+                <div class="contact-form col-md-6 col-sm-12 col-xs-12 col-md-offset-3">
+                    <form class="form">
+                        <div class="form-group name">
+                            <label class="sr-only" for="name">Nome</label>
+                            <input id="name" type="text" class="form-control" placeholder="Nome:"> </div>
+                        <!--//form-group-->
+                        <div class="form-group email">
+                            <label class="sr-only" for="email">Email</label>
+                            <input id="email" type="email" class="form-control" placeholder="Email:"> </div>
+                        <!--//form-group-->
+                        <div class="form-group message">
+                            <label class="sr-only" for="message">Menssagem</label>
+                            <textarea id="message" class="form-control" rows="6" placeholder="Menssagem:"></textarea>
+                        </div>
+                        <!--//form-group-->
+                        <button type="submit" class="btn btn-lg btn-theme">Enviar Menssagem</button>
+                    </form>
+                    <!--//form-->
+                </div>
+                <!--//contact-form-->
+            </div>
+            <!--//row-->
+            <div class="text-center">
+                <ul class="social-icons list-inline">
+                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                    <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                    <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                </ul>
+                <!--//social-icons-->
+            </div>
+            <!--//row-->
+        </div>
+        <!--//container-->
+    </section>
+    <!--//contact-->
+    <!-- ******FOOTER****** -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-col col-md-5 col-sm-7 col-sm-12 about">
+                        <div class="footer-col-inner">
+                            <h3 class="title">Sobre a Vaptfy</h3>
+                            <p>A Vaptfy é uma empresa de tecnologia voltada para o mercado de entregas. Diferentemente de uma transportadora, nós conectamos entregadores e consumidores, mas não realizamos o serviço de transporte.</p>
+                        </div>
+                        <!--//footer-col-inner-->
+                    </div>
+                    <!--//foooter-col-->
+                    <div class="footer-col col-md-3 col-sm-4 col-md-offset-1 links">
+                        <div class="footer-col-inner">
+                            <h3 class="title">Links</h3>
+                            <ul class="list-unstyled">
+                                <li><a href="#"><i class="fa fa-caret-right"></i>Empregos</a></li>
+                                <li><a href="#"><i class="fa fa-caret-right"></i>Imprensa</a></li>
+                                <li><a href="#"><i class="fa fa-caret-right"></i>Termos de serviço</a></li>
+                                <li><a href="#"><i class="fa fa-caret-right"></i>Política de Privacidade</a></li>
+                            </ul>
+                        </div>
+                        <!--//footer-col-inner-->
+                    </div>
+                    <!--//foooter-col-->
+                    <div class="footer-col col-md-3 col-sm-12">
+                        <div class="footer-col-inner">
+                            <h3 class="title">Entre em contato</h3>
+                            <div class="row">
+                                <p class="tel col-md-12 col-sm-4"><i class="fa fa-phone"></i> 0800 123 456</p>
+                                <p class="email col-md-12 col-sm-4"><i class="fa fa-envelope"></i> suporte@vaptfy.com</p>
+                            </div>
+                        </div>
+                        <!--//footer-col-inner-->
+                    </div>
+                    <!--//foooter-col-->
+                </div>
+                <!--//row-->
+            </div>
+            <!--//container-->
+        </div>
+        <!--//footer-content-->
+        <div class="bottom-bar">
+            <div class="container">
+                <div class="row"> <small class="copyright col-md-6 col-sm-6 col-xs-12">Copyright @ 2016 Vaptfy - All rights reserved.</small> </div>
+                <!--//row-->
+            </div>
+            <!--//container-->
+        </div>
+        <!--//bottom-bar-->
+    </footer>
+    <!--//footer-->
+    <!-- Javascript -->
+    <script type="text/javascript" src="assets/plugins/jquery-1.12.3.min.js"></script>
+    <script type="text/javascript" src="assets/plugins/isMobile/isMobile.min.js"></script>
+    <script type="text/javascript" src="assets/plugins/jquery.easing.1.3.js"></script>
+    <script type="text/javascript" src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="assets/plugins/jquery-inview/jquery.inview.min.js"></script>
+    <script type="text/javascript" src="assets/plugins/FitVids/jquery.fitvids.js"></script>
+    <script type="text/javascript" src="assets/plugins/jquery-scrollTo/jquery.scrollTo.min.js"></script>
+    <script type="text/javascript" src="assets/plugins/jquery-placeholder/jquery.placeholder.js"></script>
+    <script type="text/javascript" src="assets/plugins/flexslider/jquery.flexslider-min.js"></script>
+    <script type="text/javascript" src="assets/plugins/jquery-match-height/jquery.matchHeight-min.js"></script>
+    <script type="text/javascript" src="assets/js/main.js"></script>
+    <!--[if !IE]>-->
+    <script type="text/javascript" src="assets/js/animations.js"></script>
+    <!--<![endif]-->
+</body>
+
+</html>

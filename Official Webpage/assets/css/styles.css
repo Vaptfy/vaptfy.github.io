@@ -299,7 +299,7 @@ select {
 }
 
 .header h1.logo {
-    margin-top: 0;
+    margin-top: -8px;
     margin-bottom: 0;
     text-transform: uppercase;
     font-weight: bold;
@@ -1988,5 +1988,9 @@ select {
     color: #666;
 }
 
+.login-trigger {
+    padding: 14px 20px 14px 20px;
+    margin-left: 10px;
+}
 
 /* Large devices (large desktops, 1200px and up) */
